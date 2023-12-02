@@ -3,7 +3,7 @@ import { DataContext } from "../context/DataContext";
 
 const Table = () => {
   const { userData } = useContext(DataContext);
-  console.log("data is here ==>", userData);
+  // console.log("data is here ==>", userData);
 
   return (
     <div className="flex flex-col">

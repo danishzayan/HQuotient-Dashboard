@@ -2,7 +2,7 @@ import React from "react";
 
 const DataFilter = () => {
   return (
-    <div className="flex justify-between items-center pb-6">
+    <div className="flex  justify-between items-center pb-6">
       <div className="flex justify-start">
         <form class="flex items-center">
           <label for="simple-search" class="sr-only">
@@ -29,7 +29,7 @@ const DataFilter = () => {
             <input
               type="text"
               id="simple-search"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-96 ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-96 sm:w-full md:w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Search data..."
               required
             />
@@ -73,7 +73,7 @@ const DataFilter = () => {
               <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
             </svg>
           </div>
-          <span>Create Data</span>
+          <span>Add User</span>
         </button>
         <button
           type="submit"
